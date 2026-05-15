@@ -6,16 +6,15 @@ body {
   font-stretch: normal;
 }
 
-.logo{
+.logo {
   justify-content: space-between;
 }
 
-:root{
-  --color: rgb(118, 186, 235)
-  ;
+:root {
+  --color: rgb(118, 186, 235);
 }
 
-header{
+header {
   display: flex;
   height: 60px;
   width: 100%;
@@ -24,13 +23,19 @@ header{
   align-items: center;
 }
 
-nav ul{
+nav ul {
   display: flex;
   text-transform: uppercase;
   align-items: center;
   align-content: center;
   list-style: none;
   margin: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 nav ul li:not(:last-child) {
