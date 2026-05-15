@@ -3,11 +3,16 @@ body {
   font-family:'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-width: normal;
+  font-stretch: normal;
 }
 
 .logo{
   justify-content: flex-start;
+}
+
+:root{
+  --color: rgb(118, 186, 235)
+  ;
 }
 
 header{
@@ -40,18 +45,18 @@ a:link {
 }
 
 a:visited {
-  color: aqua;
+  color: var(--color);
   text-decoration: none;
 }
 
 a:hover {
-  color: lightskyblue;
+  color: var(--color);
   text-decoration: underline;
-  text-decoration-color: aqua;
+  text-decoration-color: var(--color);
 }
 
 a.is-active {
-  color: lightskyblue;
+  color: var(--color);
   text-decoration: none;
 }
 
@@ -60,6 +65,7 @@ a.is-active::after {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: lightskyblue;
+  background-color: var(--color);
   margin-top: 5px;
+  position: relative;
 }
