@@ -7,7 +7,7 @@ body {
 }
 
 .logo{
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 :root{
@@ -19,9 +19,7 @@ header{
   display: flex;
   height: 60px;
   width: 100%;
-  border: 1px solid lightskyblue;
   background-color: white;
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -51,8 +49,6 @@ a:visited {
 
 a:hover {
   color: var(--color);
-  text-decoration: underline;
-  text-decoration-color: var(--color);
 }
 
 a.is-active {
