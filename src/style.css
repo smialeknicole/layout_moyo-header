@@ -9,7 +9,7 @@ body {
   --color: #00acdc;
 }
 
-header {
+.header {
   display: flex;
   height: 60px;
   width: 100%;
